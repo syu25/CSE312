@@ -1,0 +1,29 @@
+.Post{
+    position: absolute;
+    left: 100px;
+    text-align: center;
+}
+.Body{
+    background-color: rgb(199, 195, 195);
+    left: 100px;
+    width: 500px;
+    height: 500px;
+    display: inline;
+    position: absolute;
+}
+.Posted{
+    background-color:rgb(228, 212, 174);
+    top: 100px;
+    left: 10px;
+    width: 480px;
+    height: 400px;
+    display: inline;
+    position: absolute;
+}
+.Friends{
+    background-color: aquamarine;
+    width: 100px;
+    height: 500px;
+    display: inline;
+    position: absolute;
+}
