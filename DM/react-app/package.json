@@ -1,0 +1,35 @@
+{
+  "name": "react-tut",
+  "version": "1.0.0",
+  "description": "React Tutorial",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development"
+  },
+  "author": "Derek Banas",
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
+  "dependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "bootstrap": "^4.3.1",
+    "express": "^4.16.4",
+    "jquery": "^1.9.1",
+    "mongodb": "^3.2.2",
+    "popper.js": "^1.14.7"
+  },
+  "devDependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
