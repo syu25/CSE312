@@ -1,6 +1,5 @@
 # CSE312 website
-Social Media Website
-Current plans still TBD
+Social Media Website. Current plans still TBD
 
 ## End Goal
 Users should be able to create an account 
