@@ -12,7 +12,7 @@ Users should be able to vote and comment on other user's content
 
 Users should be abel to friend or follow another user
 
-Users shouls be able to communicate to another user
+Users should be able to communicate to another user
 
 ## How to run 
 
