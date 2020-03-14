@@ -1,11 +1,17 @@
 # CSE312 website
-Social Media Website. Current plans still TBD
+Social Media Website. 
+
+Current plans still TBD
 
 ## End Goal
 Users should be able to create an account 
+
 Users should be able to share multimedia between users
+
 Users should be able to vote and comment on other user's content
+
 Users should be abel to friend or follow another user
+
 Users shouls be able to communicate to another user
 
 ## How to run 
