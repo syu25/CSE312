@@ -1,0 +1,50 @@
+What does this technology (library/framework/service) accomplish for you?
+
+-REACT is a framework that provides a pre-built basic server to server GET
+and POST requests. Additionally, the framework provides a sleeker deisgn finish
+on the html pages that are served by the server. As the system is even based, it
+is also able to provide real-time feedback to page edits and updates without having
+to reload the entire page request. Finally, the frameworks pre-built server provides
+very detailed implementation instructions that will aid us when it comes times to
+add additional functionality to our server in the upcomming phases.
+
+
+
+How does this technology accomplish what it does?
+
+->In addition to the pre-written styling files that come with this framework to
+impove the overall look of the implemented html code, React implemets a unique 
+render function that enables the server to constantly update the pages being deployed
+on the server, providing realtime feedback. It does this in conjucion with NodeJS, which
+imploys a multi-threaded approach towards processing GET and POST request, even within 
+the same request. This highly increases efficiency and the overall user experience of
+our web application.
+
+
+
+What license(s) or terms of service apply to this technology?
+
+->This is a copy of the Licensing aggreement, as provided by the React GitHub
+link: https://github.com/facebook/react/blob/master/LICENSE
+
+MIT License
+
+Copyright (c) Facebook, Inc. and its affiliates.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

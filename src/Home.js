@@ -6,26 +6,12 @@ import { Navbar } from 'react-bootstrap';
 
 import Login from './Login';
 import DirectMessage from './DirectMessage';
-import Profile from './Profile';
+import Profile from './Friend';
 
 class Home extends Component {
 	render() {
 		return (
 			<div className="home">
-				<Navbar fixed="top" variant="dark" className="navbar">
-					<div className="logo">
-						<Link to="Login" style={{ textDecoration: 'none' }}>
-							Login
-						</Link>
-						<Link to="DirectMessage" style={{ textDecoration: 'none' }}>
-							Messages
-						</Link>
-						<Link to="Profile" style={{ textDecoration: 'none' }}>
-							Profile
-						</Link>
-					</div>
-				</Navbar>
-
 				<div className="Body">
 					<div className="Post">
 						<textarea id="Send-Message" rows="3" cols="39" wrap="soft">
@@ -45,7 +31,12 @@ class Home extends Component {
 					</div>
 				</div>
 
-				<div className="Friends">Friends</div>
+				<div className="Friends">Friends
+				<Link to="Friend" style={{ textDecoration: 'none' }}>
+					<Button type="button">John Doe</Button>
+						</Link>
+				
+				</div>
 			</div>
 		);
 	}
