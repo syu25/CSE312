@@ -5,5 +5,5 @@ WORKDIR /usr/src/app
 ENV PATH /usr/src/app/node_modules/.bin:$PATH
 RUN npm install
 RUN yarn
-EXPOSE 3000
+EXPOSE 8000
 CMD ["npm", "start"]
