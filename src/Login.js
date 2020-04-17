@@ -10,8 +10,8 @@ class Login extends Component {
         <Form className="login-form">
       <h1><span className="font-weight-bold">website</span>.com</h1>
       <FormGroup>
-          <Label>Email</Label>
-          <Input type="email" placeholder="Email"/>
+          <Label>Username</Label>
+          <Input type="email" placeholder="Username"/>
       </FormGroup>
       <FormGroup>
           <Label>Password</Label>
@@ -24,7 +24,7 @@ class Login extends Component {
 
       <div className="text-center">
           <a href="/sign-up">Sign up</a>
-          <span className="p-2">|</span>
+          <span className="p-2"> | </span>
           <a href="/forgot-password">Forgot Password</a>
       </div>
 
