@@ -1,0 +1,16 @@
+What does this technology (library/framework/service) accomplish for you?
+
+->Bootstrap is a front-end framework that recycles snippets of code written in CSS, HTML and JavaScript in order for programmers to quickly set-up the front-end of a developer’s website in a more concise manner.
+
+We use Bootstrap to setup some of the Front-End so we have less of a workload in creating the CSS.
+
+
+How does this technology accomplish what it does?
+
+-> With Bootstrap, developers can use predefined classes, which are essentially templates for developers, to quickly set-up the type of visuals they want by simple assigning a class attribute to a value.
+
+
+
+What license(s) or terms of service apply to this technology?
+
+-> The MIT license gives developers ownership over their code. Bootstrap is free to use without restriction. However, Bootstrap should be credited if distributed, and the creators of Bootstrap, as well as Twitter shouldn’t be held liable for things you may do with Bootstrap.

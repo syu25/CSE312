@@ -1,0 +1,33 @@
+{
+  "name": "simple-reactjs-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://aditya-sridhar.github.io/simple-reactjs-app",
+  "dependencies": {
+    "@material-ui/core": "^4.9.10",
+    "@material-ui/icons": "^4.9.1",
+    "axios": "^0.18.1",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.6",
+    "react": "^16.13.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.13.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "reactstrap": "^8.4.1",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0"
+  },
+  "scripts": {
+    "start": "PORT=8000 react-scripts start",
+    "front": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  }
+}
