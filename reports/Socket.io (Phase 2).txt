@@ -1,0 +1,52 @@
+What does this technology (library/framework/service) accomplish for you?
+
+->Socket.io provides the basic utilities required to allow out web application to handle
+more complicated file serving requests too and form the client to the server. Within
+phase 2, we are required to develop a database which can store and serve image files and
+text data that have been shared on the social media platform. Socket.io provides full
+websocket support that will allow for a more professional finish on the application, by
+allowing for automatic updats that don't require an entire page refresh. Finally, Socket.io
+provides a well documented set of commands that allow ud to easily merge the library 
+functionality with our database of choice, MongoDB. An added feature of Socket.io is that
+it containes to distinct libraries for both client-side and server-side implementations, 
+which simplifies implementation.
+
+
+How does this technology accomplish what it does?
+
+->Socket.io utilizes the websocket protocol for communicating between nodes within
+its defined network. This allows for easy page updates, as well as content updates
+without the need to manually refresh the page. Also, by being exclusive in the fact
+that it will only look for and connect to other websocket enabled ports, it reduces
+the complexeties of cross-standard compatability requirements that are often imlemented
+in similar libraries, reducing this libraries overall complexity. This served to make
+it easier to implement. 
+
+
+What license(s) or terms of service apply to this technology?
+
+->This is a copy of the Licensing aggreement, as provided by the Node.Js GitHub
+link: https://github.com/socketio/socket.io/blob/master/LICENSE
+
+(The MIT License)
+
+Copyright (c) 2014-2018 Automattic <dev@cloudup.com>
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

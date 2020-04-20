@@ -1,0 +1,29 @@
+What does this technology (library/framework/service) accomplish for you?
+
+->MongoDB acts as the backend NoSQL based database for the social media platform that we
+implemented for phase 2. It containes a well developed set of commands that can be used to
+easily store and retreive the data shared on the platform. One of the major benifits to using
+this on our backend was the relative easy of implementation and use. The command structure
+was both familar with the some of our developers, in addition to being easy to pick up for
+those of us who were not well versed in it. A final major benifit of MongoDB, and possibily 
+one of the biggest for our project, was the lack of a file saving standard to be set upon
+files stored in the system. In many databases, there are strick file standards that are 
+enforced, which can make it challenging to store both text and image files. This is not
+the case with MongoDB, which made our lives much easier.
+
+
+How does this technology accomplish what it does?
+
+->This technology employs the above mentioned through the use of fast-query-access, which
+was a major selling point for the database. Not only does this implementation method
+increase efficiency, it also allows thye user to implement the databse in a non-ridged
+manner, meaning it can be easily tallored. For example, this databse structure is both
+maluable enough to be implemented across a distributed system, yet verstile enough to
+scale to the individual databases needs. Pervious SQL databases did not offer nearly as
+many features as NoSQL, the backbone of MongoDB.
+
+
+What license(s) or terms of service apply to this technology?
+
+->This is a copy of the Licensing aggreement, as provided by the Node.Js GitHub
+link: https://www.mongodb.com/licensing/server-side-public-license
