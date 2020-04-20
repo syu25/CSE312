@@ -1,0 +1,1 @@
+Cors allows access for our backed/API to be accessed by our frontend since the two are served on different ports. Without Cors an error is printed to the console when a request to the database is made.

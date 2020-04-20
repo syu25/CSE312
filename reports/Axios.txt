@@ -1,0 +1,1 @@
+Axios is used by our front end to make http requests when a user may want to send any sort of request. e.g. a get request for comment; a post request to login to the website or post a comment.
