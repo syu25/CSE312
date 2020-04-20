@@ -5,7 +5,7 @@ import {
 	BrowserRouter as Router,
 	Switch,
 	Route,
-	Redirect
+	Redirect,
 } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import { Navbar } from 'react-bootstrap';
@@ -14,30 +14,39 @@ import Home from './Home';
 import DirectMessage from './DirectMessage';
 import Friend from './Friend';
 import Profile from './Profile';
-
-
+// Routes
+import CreateUser from './components/create-user.component';
+import CreateComment from './components/create-comment.component';
+import CreateTest from './components/create-test';
+import Comments from './components/comments';
 class App extends Component {
 	render() {
 		console.log('Host URL' + process.env.PUBLIC_URL);
 		return (
 			<Router basename={process.env.PUBLIC_URL}>
 				<div className="App">
-				<Navbar fixed="top" variant="dark" className="navbar">
-					<div className="logo">
-						<Link to="Login" style={{ textDecoration: 'none' }}>
-							Login.....
-						</Link>
-						<Link to="DirectMessage" style={{ textDecoration: 'none' }}>
-							Messages.....
-						</Link>
-						<Link to="/" style={{ textDecoration: 'none' }}>
-							Home.....
-						</Link>
-						<Link to="Profile" style={{ textDecoration: 'none' }}>
-							Profile.....
-						</Link>
-					</div>
-				</Navbar>
+					<Navbar fixed="top" variant="dark" className="navbar">
+						<div className="logo">
+							<Link to="Login" style={{ textDecoration: 'none' }}>
+								Login.....
+							</Link>
+							<Link to="DirectMessage" style={{ textDecoration: 'none' }}>
+								Messages.....
+							</Link>
+							<Link to="/" style={{ textDecoration: 'none' }}>
+								Home.....
+							</Link>
+							<Link to="Profile" style={{ textDecoration: 'none' }}>
+								Profile.....
+							</Link>
+							<Link to="comment" style={{ textDecoration: 'none' }}>
+								Post a Comment.....
+							</Link>
+							<Link to="comments" style={{ textDecoration: 'none' }}>
+								Comments.....
+							</Link>
+						</div>
+					</Navbar>
 					<header className="App-header"></header>
 					<Switch>
 						<Route exact path="/" component={Home} />
@@ -45,6 +54,11 @@ class App extends Component {
 						<Route path="/DirectMessage" component={DirectMessage} />
 						<Route path="/Friend" component={Friend} />
 						<Route path="/Profile" component={Profile} />
+						{/* routes in testing */}
+						<Route path="/user" component={CreateUser} />
+						<Route path="/comment" component={CreateComment} />
+						<Route path="/comments" component={Comments} />
+						<Route path="/test" component={CreateTest} />
 					</Switch>
 				</div>
 			</Router>
