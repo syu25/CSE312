@@ -32,6 +32,7 @@ L->src                        |  Main content Folder
   L->setupTests.js        |  Support builder testing
 L->.DS_Store                |  Configuration data (ignore)
 L->Dockerfile                |  Docker File
+L->docker-compose.yml                |  Docker Compose File
 L->index.html                |  .Js to .HTML display converter
 L->package.json                |  Server side settings
 L->package-lock.json        |  Server side settings
@@ -46,8 +47,8 @@ The web server contained within this project was designed to work using a react 
 
 
 Running the software
-In your terminal, cd into the project directory. You should be able to run “docker build -t <imagename> . ” and it should build your image successfully
+In your terminal, cd into the project directory. You should be able to run “docker-compose build” and it should build your image successfully
 
 
-Then run “docker container run --publish <localport>:8000 --detach <imagename>” 
-Now in your browser you should be able to type in the url bar “localhost:<localport>” and the app should load.
+Then run “docker-compose up --detach” 
+Now in your browser you should be able to type in the url bar “localhost:3000” and the app should load.
