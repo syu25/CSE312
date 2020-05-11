@@ -14,6 +14,7 @@ import Home from './Home';
 import DirectMessage from './DirectMessage';
 import Friend from './Friend';
 import Profile from './Profile';
+import Signup from './Signup';
 // Routes
 import CreateUser from './components/create-user.component';
 import CreateComment from './components/create-comment.component';
@@ -29,6 +30,9 @@ class App extends Component {
 						<div className="logo">
 							<Link to="Login" style={{ textDecoration: 'none' }}>
 								Login.....
+							</Link>
+							<Link to="Signup" style={{ textDecoration: 'none' }}>
+								Register.....
 							</Link>
 							<Link to="DirectMessage" style={{ textDecoration: 'none' }}>
 								Messages.....
@@ -51,6 +55,7 @@ class App extends Component {
 					<Switch>
 						<Route exact path="/" component={Home} />
 						<Route path="/Login" component={Login} />
+						<Route path="/Signup" component={Signup} />
 						<Route path="/DirectMessage" component={DirectMessage} />
 						<Route path="/Friend" component={Friend} />
 						<Route path="/Profile" component={Profile} />

@@ -1,3 +1,4 @@
+const bcrypt = require('bcrypt');
 const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
@@ -11,11 +12,30 @@ const userSchema = new Schema(
 			trim: true,
 			minlength: 3,
 		},
+		password: {
+			type: String,
+			required: true,
+			minlength: 3,
+		},
+		isDeleted: {
+			type: Boolean,
+			default: false
+		}
 	},
 	{
 		timestamps: true,
 	}
 );
+
+//password hashing
+userSchema.methods.generateHash = function(password) {
+	return bcrypt.hashSync(password, bcrypt.genSaltSync(8), null);
+}
+
+//validating password
+userSchema.methods.validPass = function(password) {
+	return bcrypt.compareSync(password, this.password);
+}
 
 const User = mongoose.model('User', userSchema);
 

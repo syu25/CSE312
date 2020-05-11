@@ -4,11 +4,11 @@ import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 import { Link } from "react-router-dom";
 // import { FacebookLoginButton } from 'react-social-login-buttons';
 
-class Login extends Component {
+class Signup extends Component {
   render() {
     return (
         <Form className="login-form">
-      <h1><span className="font-weight-bold">Log In</span></h1>
+      <h1><span className="font-weight-bold">Register</span></h1>
       <FormGroup>
           <Label>Username</Label>
           <Input type="email" placeholder="Username"/>
@@ -19,13 +19,11 @@ class Login extends Component {
       </FormGroup>
 
       <Link to="/" style={{ textDecoration: "none" }}>
-          <Button className="btn-lg btn-dark btn-block">Log in</Button>
+          <Button className="btn-lg btn-dark btn-block">Register</Button>
       </Link>
 
       <div className="text-center">
-          <a href="/Signup">Sign up</a>
-          <span className="p-2"> | </span>
-          <a href="/forgot-password">Forgot Password</a>
+          <a href="/login">Already have an account? Log in!</a>
       </div>
 
       
@@ -33,4 +31,4 @@ class Login extends Component {
     );
   }
 }
-export default Login;
+export default Signup;
