@@ -2,11 +2,67 @@ import React, { Component } from "react";
 import "./Home.css";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { Redirect } from 'react-router-dom';
+import Signup from './Signup';
+
+import {
+  getFromStorage,
+  setInStorage,
+} from '../src/utils/storage';
 
 class DirectMessage extends Component {
 
+  constructor(props){
+    super(props);
+
+    this.state = {
+      isLoading: true,
+      token: '',
+      signUpError: '',
+      signInError: '',
+    };
+  }
+
+  componentDidMount() {
+    if(getFromStorage('CSE312')) {
+      fetch('/account/verify?token=' + this.state.token)
+      .then(res => res.json())
+      .then(json => {
+        if(json.success) {
+          this.setState({
+            token: this.state.token,
+            isLoading: false
+          });
+        }
+        else {
+          this.setState({
+            isLoading: false,
+          });
+        }
+      });
+    } else {
+      this.setState({
+        isLoading: false,
+      });
+    }
+  }
 
   render() {
+
+    const {
+      isLoading,
+      token,
+    } = this.state;
+
+    if(isLoading) {
+      return (<div><p>Loading. . . </p></div>)
+    }
+    if(!token) {
+      // <Route path="/Signup" component={Signup} />
+      return(<div><p>Sign Up!!!</p></div>)
+      // return <Redirect to={{redirect: "/Login"}} />
+    }
+
     return (
       
       <div className="home">
