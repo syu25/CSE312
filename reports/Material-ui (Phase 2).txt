@@ -1,0 +1,22 @@
+What does this technology (library/framework/service) accomplish for you?
+
+->This library simply gave us access to a few user features we wanted to include
+in our project, including a few utility images that infere functionality without
+the use of a language, in addition to given some on screen abilities like editing
+a profile in a more modern ans user friendly way. As this library was free to use 
+and ell tested, we opted to utilize the library instead of trying to develop these
+complicated features by ourselves.
+
+
+How does this technology accomplish what it does?
+
+->This technology accomplishes what it does by providing a free to use
+libarary that has a variety of different web application features that can
+be implemented with relative ease. Additionally, this library supports mobile
+applications, whihc was something we wanted to include in out project.
+
+
+What license(s) or terms of service apply to this technology?
+
+->This is a copy of the Licensing aggreement, as provided by the Node.Js GitHub
+link: https://material-ui.com/store/license/

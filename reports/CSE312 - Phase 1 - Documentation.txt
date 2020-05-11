@@ -1,0 +1,54 @@
+﻿Thomas Bassett
+
+
+CSE 312 Goup Project Phase 1: Documentation 
+
+
+Dr. Jesse Hartloff
+
+
+
+
+
+
+Submission Structure / Architecture
+
+
+The file that is contained within the submission file is as follows:
+
+
+CSE312                        |  Main Project Folder
+L->.git                        |  Git repository configuration data (condensed)
+L->node_modules                |  Driver Files for the react server (condensed)
+L->public                |  Intermediary files for .js to .html (condensed)
+L->src                        |  Main content Folder
+  L->App.css                |  CSS file for style and formating
+  L->App.js                |  Main Page
+  L->App.test.js        |  Server Builder Testing Page
+  L->index.css                |  Additional formating
+  L->index.js                |  Support page for Main
+  L->logo.svg                |  React Logo
+  L->serviceWorker.js        |  Support
+  L->setupTests.js        |  Support builder testing
+L->.DS_Store                |  Configuration data (ignore)
+L->Dockerfile                |  Docker File
+L->docker-compose.yml                |  Docker Compose File
+L->index.html                |  .Js to .HTML display converter
+L->package.json                |  Server side settings
+L->package-lock.json        |  Server side settings
+L->README.md                |  Read Me File
+
+
+The web server contained within this project was designed to work using a react environment.
+
+
+
+
+
+
+Running the software
+In your terminal, cd into the project directory. You should be able to run “docker-compose build” and it should build your image successfully
+
+
+Then run “docker-compose up --detach” 
+Now in your browser you should be able to type in the url bar “localhost:3000” and the app should load.

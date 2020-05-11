@@ -1,0 +1,55 @@
+What does this technology (library/framework/service) accomplish for you?
+
+->This is an open sourced we application framework that is utilized in developing web
+applications, and works particularly well with MongoDB. It is also commonly implemented
+when using Node.js, which we used in this project since phase 1. This framework served
+mainly as an implementation tool, as there are many resources avalible, free of charge,
+that explain how to leverage it to design a nice and reliable web application. Another
+major feature of express.js is that it was deisgned from the beginning to support mobile
+applications, which is something we wanted to include due to its growing importance in 
+world. Express also helps a lot when implementing http uttilities, which was required for
+accessing and updating the MongoDB database.
+
+
+
+How does this technology accomplish what it does?
+
+->This technology employs the above mentioned features through easy to use and understand
+standards, that also allow for a high degree of flexability. This is particularly important
+because no one is ever going to implement one thing in the exact same way, which requires non-
+rigid standards to allow for an ease of access and use. Additionally, expresses relatively new
+design takes into account the more common protocols utilized in many modern web applications, 
+which is something many older libraries cannot offer. This made Express an obvious choice to 
+include when designing our web application.
+
+
+
+What license(s) or terms of service apply to this technology?
+
+->This is a copy of the Licensing aggreement, as provided by the Node.Js GitHub
+link: https://github.com/expressjs/express/blob/master/LICENSE
+
+(The MIT License)
+
+Copyright (c) 2009-2014 TJ Holowaychuk <tj@vision-media.ca>
+Copyright (c) 2013-2014 Roman Shtylman <shtylman+expressjs@gmail.com>
+Copyright (c) 2014-2015 Douglas Christopher Wilson <doug@somethingdoug.com>
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

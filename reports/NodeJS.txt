@@ -1,0 +1,51 @@
+What does this technology (library/framework/service) accomplish for you?
+
+->This is an open source JavaScript runtime that provides many of the scripts
+required to run a basic web server socket. It contains well documented settings
+pages that allow its users the modify the operation of the server, in addition
+to slots for unlimited expansion of the servers dunctionality beyond the included
+functionality. We also utilized its capablities to provide real time feedback to
+connected clients, which makes trouble shooting very easy. Additionally, the 
+frameworks design to be event based flows very well with our design style, making
+future developement easier.
+
+
+
+How does this technology accomplish what it does?
+
+->This technology employs the above mentioned features through a thread-based
+networking design that allows real-time feedback and ease of developement easily
+attainable. NodeJS also has operating system dependent requirnments that translate
+into the same basic functions, which allows the server to operate flawlessly on
+linux, MacOS, and windows. Essentailly, it implments a layering design to ensure 
+proper functionality accross system types. Finally, an equaly important system design
+that was implemented in NodeJS to ensure optimal functionality was it event-based
+handling of user requests, which is implemented using a multi-thread pool design to
+allow for the quick handling of multiple requests while reducing system overhead, thus allowing for real time feedback.
+
+
+
+What license(s) or terms of service apply to this technology?
+
+->This is a copy of the Licensing aggreement, as provided by the Node.Js GitHub
+link: https://github.com/nodejs/nodejs.org/blob/master/LICENSE
+
+Copyright Node.js Website WG contributors. All rights reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to
+deal in the Software without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+sell copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+IN THE SOFTWARE.
