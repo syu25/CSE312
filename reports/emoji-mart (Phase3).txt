@@ -1,0 +1,36 @@
+https://www.npmjs.com/package/emoji-mart
+
+What does this technology (library/framework/service) accomplish for you?
+Emoji Mart is a Slack-like customizable emoji picker component for React.
+No more extra features, just a simple component with a few easy props.
+emoji-mart provided us with an emoji picker component for React. It enabled us to allow the user 
+to choose any emoji provided to include in their comments for their multimedia. 
+
+How does this technology accomplish what it does?
+
+import 'emoji-mart/css/emoji-mart.css'
+import { Picker } from 'emoji-mart'
+
+         <Picker onSelect={this.addEmoji} />
+
+It creates a Picker Component that allows the user to click on any of the emojis shown. 
+This will then trigger an event called addEmoji. In our project, it addEmoji adds the 
+clicked emoji to the back of the message string.
+
+
+What license(s) or terms of service apply to this technology?
+->This is a copy of the Licensing aggreement, as provided by the emoji-mart GitHub
+link: https://github.com/missive/emoji-mart/blob/master/LICENSE
+
+Copyright (c) 2016, Missive
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
